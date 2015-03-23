@@ -536,7 +536,7 @@ angular.module('angucomplete-alt', [] )
               image = extractValue(responseData[i], scope.imageField);
             }
 
-            if (scope.matchClass && typeof str !== 'undefined') {
+            if (scope.matchClass) {
               formattedText = findMatchString(text, str);
               formattedDesc = findMatchString(description, str);
             }
